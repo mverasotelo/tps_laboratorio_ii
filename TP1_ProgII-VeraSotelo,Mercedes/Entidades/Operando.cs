@@ -11,6 +11,7 @@ namespace Entidades
         //atributo
         private double numero;
 
+        //propiedades
         private string Numero
         {
             set
@@ -56,10 +57,10 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Verifica que un numero sea binario (que contenga solo 0 y 1)
+        /// Verifica que un numero sea entero binario (que contenga solo 0 y 1)
         /// </summary>
-        /// <param name="binario">cadena de caracteres a chequear</param>
-        /// <returns>devuelve true si es binario y false sino lo es</returns>
+        /// <param name="binario">Cadena de caracteres a chequear</param>
+        /// <returns>Devuelve true si es binario y false sino lo es</returns>
         private bool EsBinario(string binario)
         {
             foreach (char caracter in binario)
@@ -73,10 +74,10 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Convierte un numero entero binario al sistema decimal
+        /// Verifica que un numero sea un entero binario y lo convierte al sistema decimal
         /// </summary>
-        /// <param name="binario">numero entero binario a convertir</param>
-        /// <returns>El numero en decimal</returns>
+        /// <param name="binario">numero entero binario a convertir en formato string</param>
+        /// <returns>El numero en sistema decimal en formato string</returns>
         public string BinarioDecimal(string binario)
         {
             int numeroDecimal = 0;
@@ -108,26 +109,39 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Convierte un numero flotante positivo, pasandolo a entero, a su equivalente en sistema binario
+        /// </summary>
+        /// <param name="numero">Número en formato double</param>
+        /// <returns>Devuelve el numero binario en formato string. Si el numero pasado por parametro es negativo, devuelve "Valor inválido" </returns>
         public string DecimalBinario(double numero)
         {
             int numeroEntero = (int) numero;
 
             if (numeroEntero >= 0)
             {
-                string binario = "";
-                while (numeroEntero > 0)
+                if (numeroEntero == 0)
                 {
-                    if (numeroEntero % 2 == 0)
-                    {
-                        binario = "0" + binario;
-                    }
-                    else
-                    {
-                        binario = "1" + binario;
-                    }
-                    numeroEntero = numeroEntero / 2;
+                    return "0";
                 }
-                return binario;
+                else
+                {
+                    string binario = "";
+                    while (numeroEntero > 0)
+                    {
+
+                        if (numeroEntero % 2 == 0)
+                        {
+                            binario = "0" + binario;
+                        }
+                        else
+                        {
+                            binario = "1" + binario;
+                        }
+                        numeroEntero = numeroEntero / 2;
+                    }
+                    return binario;
+                }
             }
             else
             {
@@ -135,6 +149,12 @@ namespace Entidades
             }
 
         }
+
+        /// <summary>
+        /// Convierte string en un numero flotante positivo, pasandolo a entero y a su equivalente en sistema binario
+        /// </summary>
+        /// <param name="numero">Número en formato double</param>
+        /// <returns>Devuelve el numero binario en formato string. Si el numero pasado por parametro es negativo, devuelve "Valor inválido" </returns>
 
         public string DecimalBinario(string numero)
         {

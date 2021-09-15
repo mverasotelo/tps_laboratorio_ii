@@ -69,19 +69,37 @@ namespace MiCalculadora
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
-            if (lblResultado.Text != "")
+            if (double.TryParse(lblResultado.Text, out double aux))
             {
                     Operando resultado = new Operando(lblResultado.Text);
-                    lblResultado.Text = resultado.DecimalBinario(lblResultado.Text);
+                    string numeroBinario = resultado.DecimalBinario(lblResultado.Text);
+                if(aux >= 0)
+                {
+                    lstOperaciones.Items.Add($"{lblResultado.Text}D = {numeroBinario}B");
+                }
+                lblResultado.Text = numeroBinario;
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar un valor válido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            if (lblResultado.Text != "")
+            if (double.TryParse(lblResultado.Text, out _))
             {
                 Operando resultado = new Operando(lblResultado.Text);
-                lblResultado.Text = resultado.BinarioDecimal(lblResultado.Text);
+                string numeroDecimal = resultado.BinarioDecimal(lblResultado.Text); 
+                if(int.TryParse(numeroDecimal, out _))
+                {
+                    lstOperaciones.Items.Add($"{lblResultado.Text}B = {numeroDecimal}D");
+                }
+                lblResultado.Text = numeroDecimal;
+            }
+            else
+            {
+                MessageBox.Show("Debe ingresar un valor válido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -99,7 +117,7 @@ namespace MiCalculadora
                 }
                 else if (campo is Label)
                 {
-                    campo.Text = "0";
+                    campo.Text = "";
                 }
             }
         }

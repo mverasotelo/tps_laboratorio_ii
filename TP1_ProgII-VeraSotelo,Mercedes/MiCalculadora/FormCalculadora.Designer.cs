@@ -132,7 +132,6 @@ namespace MiCalculadora
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(303, 54);
             this.lblResultado.TabIndex = 8;
-            this.lblResultado.Text = "0";
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lstOperaciones

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\MiCalculadora\\MiCalculadora.csproj",
+      "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\MiCalculadora\\MiCalculadora.csproj",
       "projectName": "MiCalculadora",
-      "projectPath": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\MiCalculadora\\MiCalculadora.csproj",
+      "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\MiCalculadora\\MiCalculadora.csproj",
       "packagesPath": "C:\\Users\\mer-v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\MiCalculadora\\obj\\",
+      "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\MiCalculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mer-v\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj"
+            "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\mer-v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mer-v\\source\\repos\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP1_ProgII-VeraSotelo,Mercedes\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mer-v\\AppData\\Roaming\\NuGet\\NuGet.Config",
