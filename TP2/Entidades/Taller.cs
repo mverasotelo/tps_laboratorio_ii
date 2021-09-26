@@ -65,41 +65,32 @@ namespace Entidades
 
             sb.AppendLine($"Tenemos {taller.vehiculos.Count} lugares ocupados de un total de {taller.espacioDisponible} disponibles\n");
 
-            switch (tipo)
+            foreach (Vehiculo v in taller.vehiculos)
             {
-                case ETipo.SUV:
-                    foreach (Vehiculo v in taller.vehiculos)
-                    {
+                switch (tipo)
+                {
+                    case ETipo.SUV:
                         if (v is Suv)
                         {
                             sb.AppendLine(((Suv)v).Mostrar());
                         }
-                    }
-                    break;
-                case ETipo.Ciclomotor:
-                    foreach (Vehiculo v in taller.vehiculos)
-                    {
-                        if (v is Ciclomotor)
-                        {
-                            sb.AppendLine(((Ciclomotor)v).Mostrar());
-                        }
-                    }
-                    break;
-                case ETipo.Sedan:
-                    foreach (Vehiculo v in taller.vehiculos)
-                    {
+                        break;
+                    case ETipo.Sedan:
                         if (v is Sedan)
                         {
                             sb.AppendLine(((Sedan)v).Mostrar());
                         }
-                    }
-                    break;
-                case ETipo.Todos:
-                    foreach (Vehiculo v in taller.vehiculos)
-                    {
+                        break;
+                    case ETipo.Ciclomotor:
+                        if (v is Ciclomotor)
+                        {
+                            sb.AppendLine(((Ciclomotor)v).Mostrar());
+                        }
+                        break;
+                    case ETipo.Todos:
                         sb.AppendLine(v.Mostrar());
-                    }
-                    break;
+                        break;
+                }
             }
             return sb.ToString();
         }
