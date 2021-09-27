@@ -18,9 +18,9 @@ namespace Entidades
         }
 
         //atributos
-        protected EMarca marca;
-        protected string chasis;
-        protected ConsoleColor color;
+        private EMarca marca;
+        private string chasis;
+        private ConsoleColor color;
 
         /// <summary>
         /// Constructor de la clase Vehiculo
@@ -38,7 +38,7 @@ namespace Entidades
         /// <summary>
         /// ReadOnly: Retornará el tamaño
         /// </summary>
-        public abstract ETamanio Tamanio { get; }
+        protected abstract ETamanio Tamanio { get; }
 
         /// <summary>
         /// Publica todos los datos del Vehiculo.
