@@ -37,7 +37,6 @@ namespace Entidades
 
             sb.AppendLine("CICLOMOTOR");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine($"TAMAÑO : {Tamanio}");
             sb.AppendLine("---------------------");
 
             return sb.ToString();

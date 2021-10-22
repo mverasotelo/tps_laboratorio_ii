@@ -46,13 +46,7 @@ namespace Entidades
         /// <returns></returns>
         public virtual string Mostrar()
         {
-            StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"CHASIS: {chasis}");
-            sb.AppendLine($"MARCA: {marca}");
-            sb.AppendLine($"COLOR: {color}");
-            sb.AppendLine("---------------------");
-
-            return sb.ToString();
+            return (string) this;
         }
 
         /// <summary>
@@ -66,6 +60,7 @@ namespace Entidades
             sb.AppendLine($"CHASIS: {p.chasis}\n");
             sb.AppendLine($"MARCA : {p.marca}\n");
             sb.AppendLine($"COLOR : {p.color}\n");
+            sb.AppendLine($"TAMAÑO : {p.Tamanio}\n");
             sb.AppendLine("---------------------");
 
             return sb.ToString();

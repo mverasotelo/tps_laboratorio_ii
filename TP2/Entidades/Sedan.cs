@@ -28,7 +28,7 @@ namespace Entidades
         /// <param name="color"></param>
         /// <param name="tipo"></param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo)
-            : base(chasis, marca, color)
+            : this(marca, chasis, color)
         {
             this.tipo = tipo;
         }
@@ -54,7 +54,6 @@ namespace Entidades
 
             sb.AppendLine("SEDAN");
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine($"TAMAÑO : {Tamanio}");
             sb.AppendLine($"TIPO : {tipo}");
             sb.AppendLine("---------------------");
 
