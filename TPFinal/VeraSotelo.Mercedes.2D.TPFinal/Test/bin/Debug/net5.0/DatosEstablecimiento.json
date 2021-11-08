@@ -1,0 +1,34 @@
+[
+  {
+    "FechaIngreso": "2021-11-07T16:22:53.6458021-03:00",
+    "Identificacion": "B45462",
+    "Uso": 0,
+    "Sexo": 0,
+    "Raza": 0,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-11-07T16:22:53.6481485-03:00",
+    "Identificacion": "B45465",
+    "Uso": 1,
+    "Sexo": 1,
+    "Raza": 2,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-10-25T00:00:00",
+    "Identificacion": "B45457",
+    "Uso": 0,
+    "Sexo": 0,
+    "Raza": 0,
+    "PermanenciaEnDias": 14
+  },
+  {
+    "FechaIngreso": "2021-10-25T00:00:00",
+    "Identificacion": "B54545",
+    "Uso": 1,
+    "Sexo": 1,
+    "Raza": 2,
+    "PermanenciaEnDias": 14
+  }
+]

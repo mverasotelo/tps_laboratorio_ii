@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBovino xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bovino>
+    <FechaIngreso>2021-11-07T16:22:53.6458021-03:00</FechaIngreso>
+    <Identificacion>B45462</Identificacion>
+    <Uso>Tambo</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <FechaIngreso>2021-11-07T16:22:53.6481485-03:00</FechaIngreso>
+    <Identificacion>B45465</Identificacion>
+    <Uso>Engorde</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Holstein</Raza>
+  </Bovino>
+  <Bovino>
+    <FechaIngreso>2021-10-25T00:00:00</FechaIngreso>
+    <Identificacion>B45457</Identificacion>
+    <Uso>Tambo</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <FechaIngreso>2021-10-25T00:00:00</FechaIngreso>
+    <Identificacion>B54545</Identificacion>
+    <Uso>Engorde</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Holstein</Raza>
+  </Bovino>
+</ArrayOfBovino>

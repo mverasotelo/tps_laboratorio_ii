@@ -1,0 +1,122 @@
+[
+  {
+    "FechaIngreso": "2021-10-07T00:00:00-03:00",
+    "Identificacion": "T0001",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "PermanenciaEnDias": 32
+  },
+  {
+    "FechaIngreso": "2021-10-08T00:00:00-03:00",
+    "Identificacion": "T0002",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "PermanenciaEnDias": 31
+  },
+  {
+    "FechaIngreso": "2021-10-08T00:00:00-03:00",
+    "Identificacion": "T0003",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "PermanenciaEnDias": 31
+  },
+  {
+    "FechaIngreso": "2021-10-09T00:00:00-03:00",
+    "Identificacion": "E0001",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "PermanenciaEnDias": 30
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "E0002",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 2,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "E0003",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 1,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-10-14T00:00:00-03:00",
+    "Identificacion": "E0004",
+    "Uso": 1,
+    "Sexo": 1,
+    "Raza": 1,
+    "PermanenciaEnDias": 25
+  },
+  {
+    "FechaIngreso": "2021-10-18T00:00:00-03:00",
+    "Identificacion": "T0004",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "PermanenciaEnDias": 21
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "E0005",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 2,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-10-29T00:00:00-03:00",
+    "Identificacion": "T0005",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "PermanenciaEnDias": 10
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "T0006",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "E0006",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 1,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "E0007",
+    "Uso": 1,
+    "Sexo": 1,
+    "Raza": 2,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "T0007",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "PermanenciaEnDias": 1
+  },
+  {
+    "FechaIngreso": "2021-11-07T00:00:00-03:00",
+    "Identificacion": "T0008",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "PermanenciaEnDias": 1
+  }
+]
