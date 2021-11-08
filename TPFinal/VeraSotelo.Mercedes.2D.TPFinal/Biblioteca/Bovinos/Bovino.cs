@@ -161,15 +161,6 @@ namespace Biblioteca
         }
 
         /// <summary>
-        /// Calcula la cantidad de vacunas que recibió el bovino, considerando que se les aplican 2 vacunas contra la fiebre aftosa por año
-        /// </summary>
-        /// <returns>Cantidad de vacunas</returns>
-        public int CalcularCantidadVacunas()
-        {
-            return (CalcularPermanenciaEnDias() / 365) * 2;
-        }
-
-        /// <summary>
         /// Calcula la cantidad de alimento consumido por el bovino de acuerdo a lso dias de permanencia en el establecimiento
         /// </summary>
         /// <returns></returns>
@@ -196,7 +187,7 @@ namespace Biblioteca
             }
             else
             {
-                float promedioProduccionDiaria = r.Next(0, 2);
+                float promedioProduccionDiaria = r.Next(1, 2);
                 produccion = promedioProduccionDiaria * PermanenciaEnDias;
             }
             return produccion;

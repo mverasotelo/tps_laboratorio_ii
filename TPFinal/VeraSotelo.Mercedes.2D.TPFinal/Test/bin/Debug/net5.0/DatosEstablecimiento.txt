@@ -1,22 +1,22 @@
-STOCK GANADERO (4 cabezas)
+STOCK GANADERO (5 cabezas)
 
 BOVINO
 Identificación: B45462
-Fecha de ingreso: 7/11/2021
+Fecha de ingreso: 8/11/2021
 Sexo: Macho
 Raza: Angus
 Uso: Tambo
 
 BOVINO
 Identificación: B45465
-Fecha de ingreso: 7/11/2021
+Fecha de ingreso: 8/11/2021
 Sexo: Hembra
 Raza: Holstein
 Uso: Engorde
 
 BOVINO
 Identificación: B45457
-Fecha de ingreso: 25/10/2021
+Fecha de ingreso: 22/10/2021
 Sexo: Macho
 Raza: Angus
 Uso: Tambo
@@ -27,4 +27,11 @@ Fecha de ingreso: 25/10/2021
 Sexo: Hembra
 Raza: Holstein
 Uso: Engorde
+
+BOVINO
+Identificación: B54546
+Fecha de ingreso: 30/10/2021
+Sexo: Hembra
+Raza: Hereford
+Uso: Tambo
 

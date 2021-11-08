@@ -22,3 +22,4 @@ C:\Users\mer-v\source\TPs_Programacion2\TPFinal\VeraSotelo.Mercedes.2D.TPFinal\V
 C:\Users\mer-v\source\TPs_Programacion2\TPFinal\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmEstadisticas.resources
 C:\Users\mer-v\source\TPs_Programacion2\TPFinal\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.Properties.Resources.resources
 C:\Users\mer-v\source\TPs_Programacion2\TPFinal\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmABMAnimal.resources
+C:\Users\mer-v\source\TPs_Programacion2\TPFinal\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.csproj.CopyComplete

@@ -10,7 +10,6 @@ namespace Biblioteca
         public Bovino.ESexo Sexo { get; }
         public Bovino.EUso Uso { get; }
         public int PermanenciaEnDias { get; }
-
         public int CalcularPermanenciaEnDias();
         public float CalcularProduccionAnimal();
     }

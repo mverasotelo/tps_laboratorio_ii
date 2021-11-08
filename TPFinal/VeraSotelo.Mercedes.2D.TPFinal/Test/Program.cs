@@ -18,14 +18,16 @@ namespace Test
             //CREAR BOVINOS PARA ENGORDE Y TAMBO
             Bovino b1 = new Bovino(DateTime.Now, "B45462", Bovino.ESexo.Macho, Bovino.ERaza.Angus, Bovino.EUso.Tambo);
             Bovino b2 = new Bovino(DateTime.Now, "B45465", Bovino.ESexo.Hembra, Bovino.ERaza.Holstein, Bovino.EUso.Engorde);
-            Bovino b3 = new Bovino(new DateTime(2021,10,25), "B45457", Bovino.ESexo.Macho, Bovino.ERaza.Angus, Bovino.EUso.Tambo);
+            Bovino b3 = new Bovino(new DateTime(2021,10,22), "B45457", Bovino.ESexo.Macho, Bovino.ERaza.Angus, Bovino.EUso.Tambo);
             Bovino b4 = new Bovino(new DateTime(2021, 10, 25), "B54545", Bovino.ESexo.Hembra, Bovino.ERaza.Holstein, Bovino.EUso.Engorde);
+            Bovino b5 = new Bovino(new DateTime(2021, 10, 30), "B54546", Bovino.ESexo.Hembra, Bovino.ERaza.Hereford, Bovino.EUso.Tambo);
 
             //AGREGAR BOVINOS AL ESTABLECIMIENTO
             Establecimiento.AgregarAnimal(b1);
             Establecimiento.AgregarAnimal(b2);
             Establecimiento.AgregarAnimal(b3);
             Establecimiento.AgregarAnimal(b4);
+            Establecimiento.AgregarAnimal(b5);
 
             Console.WriteLine(Establecimiento.ImprimirStockGanadero());
 
@@ -105,7 +107,7 @@ namespace Test
                 Console.WriteLine();
             }
 
-            //CARGAR DATOS DESDE JSON PARA PROBAR EXCEPCIONES
+            //CARGAR BOVINOS DESDE JSON PARA PROBAR EXCEPCIONES
             Console.WriteLine("CARGA UN BOVINO DESDE JSON...");
             Console.ReadKey();
             try
@@ -134,10 +136,18 @@ namespace Test
                 Console.WriteLine();
             }
 
+
+            //ELIMINA UN ANIMAL DEL ESTABLECIMIENTO
+            Console.WriteLine("ELIMINA UN ANIMAL DEL ESTABLECIMIENTO...");
+            Console.ReadKey();
+            Establecimiento.EliminarAnimal(b1);
+            Console.WriteLine($"Se eliminó el animal con identificación {b1.Identificacion}\n");
+
+
             //MODIFICA UN BOVINO
             Console.WriteLine("MODIFICA UN ANIMAL DEL ESTABLECIMIENTO...");
             Console.ReadKey();
-            Bovino bovinoModificado = new Bovino(DateTime.Today, "B45462", Bovino.ESexo.Macho, Bovino.ERaza.Angus, Bovino.EUso.Tambo);
+            Bovino bovinoModificado = new Bovino(DateTime.Today, "B45457", Bovino.ESexo.Macho, Bovino.ERaza.Angus, Bovino.EUso.Tambo);
 
             if(Establecimiento.ModificarAnimal(bovinoModificado))
             {
@@ -149,14 +159,11 @@ namespace Test
             }
             Console.WriteLine();
 
-            //ELIMINA TODOS LOS ANIMALES DEL ESTABLECIMIENTO
-            Console.WriteLine("ELIMINA TODOS LOS ANIMALES DEL ESTABLECIMIENTO...");
+            //GENERA ESTADISTICAS DEL ESTABLECIMIENTO
+            Estadisticas estadisticas = new Estadisticas();
+            Console.WriteLine("GENERAR ESTADISTICAS DEL ESTABLECIMIENTO...");
             Console.ReadKey();
-            for (int i = 0; i < Establecimiento.StockGanadero.Count; i++)
-            {
-                Establecimiento.EliminarAnimal(Establecimiento. StockGanadero[i]);
-            }
-            Console.WriteLine("Se eliminaron todos los animales del establecimiento");
+            Console.WriteLine(estadisticas);
         }
     }
 }
