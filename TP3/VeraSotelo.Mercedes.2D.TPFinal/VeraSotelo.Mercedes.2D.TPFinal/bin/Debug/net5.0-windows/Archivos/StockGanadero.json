@@ -5,7 +5,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "PermanenciaEnDias": 32
+    "PermanenciaEnDias": 35
   },
   {
     "FechaIngreso": "2021-10-08T00:00:00-03:00",
@@ -13,7 +13,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 1,
-    "PermanenciaEnDias": 31
+    "PermanenciaEnDias": 34
   },
   {
     "FechaIngreso": "2021-10-08T00:00:00-03:00",
@@ -21,7 +21,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "PermanenciaEnDias": 31
+    "PermanenciaEnDias": 34
   },
   {
     "FechaIngreso": "2021-10-09T00:00:00-03:00",
@@ -29,7 +29,7 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 0,
-    "PermanenciaEnDias": 30
+    "PermanenciaEnDias": 33
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
@@ -37,7 +37,7 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 2,
-    "PermanenciaEnDias": 1
+    "PermanenciaEnDias": 4
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
@@ -45,15 +45,15 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 1,
-    "PermanenciaEnDias": 1
+    "PermanenciaEnDias": 4
   },
   {
-    "FechaIngreso": "2021-10-14T00:00:00-03:00",
+    "FechaIngreso": "2021-11-08T00:00:00-03:00",
     "Identificacion": "E0004",
     "Uso": 1,
     "Sexo": 1,
-    "Raza": 1,
-    "PermanenciaEnDias": 25
+    "Raza": 2,
+    "PermanenciaEnDias": 3
   },
   {
     "FechaIngreso": "2021-10-18T00:00:00-03:00",
@@ -61,7 +61,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "PermanenciaEnDias": 21
+    "PermanenciaEnDias": 24
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
@@ -69,7 +69,7 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 2,
-    "PermanenciaEnDias": 1
+    "PermanenciaEnDias": 4
   },
   {
     "FechaIngreso": "2021-10-29T00:00:00-03:00",
@@ -77,7 +77,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 1,
-    "PermanenciaEnDias": 10
+    "PermanenciaEnDias": 13
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
@@ -85,7 +85,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "PermanenciaEnDias": 1
+    "PermanenciaEnDias": 4
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
@@ -93,7 +93,7 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 1,
-    "PermanenciaEnDias": 1
+    "PermanenciaEnDias": 4
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
@@ -101,19 +101,27 @@
     "Uso": 1,
     "Sexo": 1,
     "Raza": 2,
-    "PermanenciaEnDias": 1
-  },
-  {
-    "FechaIngreso": "2021-11-07T00:00:00-03:00",
-    "Identificacion": "T0007",
-    "Uso": 0,
-    "Sexo": 1,
-    "Raza": 1,
-    "PermanenciaEnDias": 1
+    "PermanenciaEnDias": 4
   },
   {
     "FechaIngreso": "2021-11-07T00:00:00-03:00",
     "Identificacion": "T0008",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "PermanenciaEnDias": 4
+  },
+  {
+    "FechaIngreso": "2021-11-08T00:00:00-03:00",
+    "Identificacion": "T0009",
+    "Uso": 1,
+    "Sexo": 1,
+    "Raza": 0,
+    "PermanenciaEnDias": 3
+  },
+  {
+    "FechaIngreso": "2021-11-10T00:00:00-03:00",
+    "Identificacion": "T0010",
     "Uso": 0,
     "Sexo": 1,
     "Raza": 1,
