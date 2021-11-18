@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj": {}
+    "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\mer-v\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mer-v\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj": {
+    "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj",
+        "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj",
         "projectName": "VeraSotelo.Mercedes.2D.TPFinal",
-        "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj",
+        "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal.csproj",
         "packagesPath": "C:\\Users\\mer-v\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\obj\\",
+        "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mer-v\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj"
+              "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj"
               }
             }
           }

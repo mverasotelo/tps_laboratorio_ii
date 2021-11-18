@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\mer-v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mer-v\\AppData\\Roaming\\NuGet\\NuGet.Config",

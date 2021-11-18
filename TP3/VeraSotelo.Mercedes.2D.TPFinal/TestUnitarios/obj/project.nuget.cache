@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6FbRotKtI7jd0eV35UTbCYzRQ6bZP7/xQuQgbZBoibyAxfvxvf8W2E30aROLVAT73MiF/Dkaux7sEFujGElB8A==",
+  "dgSpecHash": "YmUgE905oFfn6vlce0Ej9F5eFouyHFsF/hamko4Ix/k0fMllqW6wQSEPQo6pbm6JfrCzuw53g0lSgeKUSIVpAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\TestUnitarios\\TestUnitarios.csproj",
+  "projectFilePath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\TestUnitarios\\TestUnitarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mer-v\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\mer-v\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

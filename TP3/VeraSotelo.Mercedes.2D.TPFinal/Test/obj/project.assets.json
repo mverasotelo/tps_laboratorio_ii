@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\mer-v\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Test\\obj\\",
+      "outputPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mer-v\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj": {
-              "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TPFinal\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj"
+            "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj": {
+              "projectPath": "C:\\Users\\mer-v\\source\\TPs_Programacion2\\TP3\\VeraSotelo.Mercedes.2D.TPFinal\\Biblioteca\\Biblioteca.csproj"
             }
           }
         }
