@@ -3,10 +3,13 @@ using System.Text;
 
 namespace Biblioteca
 {
+    public delegate void NotificadorCambioStock();
+
     public static class Establecimiento
     {
         //atributo
         private static List<Bovino> stockGanadero;
+        public static event NotificadorCambioStock CambioStock;
 
         /// <summary>
         /// Constructor estatico para inicializar stockGanadero
@@ -35,12 +38,15 @@ namespace Biblioteca
         /// y una AnimalExistenteException si ya se encontraba en la lista</returns>
         public static bool AgregarAnimal(Bovino bovino)
         {
-            if(bovino is not null)
+            if (bovino is not null)
             {
                 if (!SeEncuentraEnElStock(bovino))
                 {
-                    BovinoDAO.Agregar(bovino);
-                    ActualizarStockGanadero();
+                    if (BovinoDAO.Agregar(bovino) && CambioStock is not null)
+                    {
+                        ActualizarStockGanadero();
+                        CambioStock.Invoke();
+                    }
                     return true;
                 }
                 else
@@ -62,8 +68,11 @@ namespace Biblioteca
             {
                 if (SeEncuentraEnElStock(bovino))
                 {
-                    BovinoDAO.Eliminar(bovino.Identificacion);
-                    ActualizarStockGanadero();
+                    if (BovinoDAO.Eliminar(bovino.Identificacion) && CambioStock is not null)
+                    {
+                        ActualizarStockGanadero();
+                        CambioStock.Invoke();
+                    }
                 }
             }
             return false;
@@ -78,8 +87,11 @@ namespace Biblioteca
         {
             if (bovinoModificado is not null)
             {
-                BovinoDAO.Modificar(bovinoModificado);
-                ActualizarStockGanadero();
+                if (BovinoDAO.Modificar(bovinoModificado) && CambioStock is not null)
+                {
+                    ActualizarStockGanadero();
+                    CambioStock.Invoke();
+                }
                 return true;
             }
             return false;

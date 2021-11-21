@@ -33,6 +33,8 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.btnEstadisticas = new System.Windows.Forms.Button();
             this.btnStock = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.lblCalculando = new System.Windows.Forms.Label();
+            this.pbEstadisticas = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // btnEstadisticas
@@ -44,10 +46,10 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.btnEstadisticas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstadisticas.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEstadisticas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEstadisticas.Location = new System.Drawing.Point(81, 147);
+            this.btnEstadisticas.Location = new System.Drawing.Point(81, 161);
             this.btnEstadisticas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEstadisticas.Name = "btnEstadisticas";
-            this.btnEstadisticas.Size = new System.Drawing.Size(416, 75);
+            this.btnEstadisticas.Size = new System.Drawing.Size(423, 75);
             this.btnEstadisticas.TabIndex = 0;
             this.btnEstadisticas.Text = "Información productiva";
             this.btnEstadisticas.UseVisualStyleBackColor = false;
@@ -62,10 +64,10 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.btnStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStock.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnStock.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnStock.Location = new System.Drawing.Point(81, 50);
+            this.btnStock.Location = new System.Drawing.Point(81, 64);
             this.btnStock.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnStock.Name = "btnStock";
-            this.btnStock.Size = new System.Drawing.Size(416, 75);
+            this.btnStock.Size = new System.Drawing.Size(423, 75);
             this.btnStock.TabIndex = 0;
             this.btnStock.Text = "Existencias ganaderas";
             this.btnStock.UseVisualStyleBackColor = false;
@@ -80,14 +82,33 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSalir.Location = new System.Drawing.Point(81, 336);
+            this.btnSalir.Location = new System.Drawing.Point(81, 314);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(416, 77);
+            this.btnSalir.Size = new System.Drawing.Size(423, 77);
             this.btnSalir.TabIndex = 0;
             this.btnSalir.Text = "➡️ Salir ";
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // lblCalculando
+            // 
+            this.lblCalculando.AutoSize = true;
+            this.lblCalculando.BackColor = System.Drawing.Color.Transparent;
+            this.lblCalculando.Font = new System.Drawing.Font("Trebuchet MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCalculando.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblCalculando.Location = new System.Drawing.Point(12, 442);
+            this.lblCalculando.Name = "lblCalculando";
+            this.lblCalculando.Size = new System.Drawing.Size(212, 23);
+            this.lblCalculando.TabIndex = 2;
+            this.lblCalculando.Text = "Calculando estadísticas... ";
+            // 
+            // pbEstadisticas
+            // 
+            this.pbEstadisticas.Location = new System.Drawing.Point(15, 468);
+            this.pbEstadisticas.Name = "pbEstadisticas";
+            this.pbEstadisticas.Size = new System.Drawing.Size(762, 10);
+            this.pbEstadisticas.TabIndex = 3;
             // 
             // FrmEstablecimientoGanadero
             // 
@@ -97,7 +118,9 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(782, 453);
+            this.ClientSize = new System.Drawing.Size(789, 490);
+            this.Controls.Add(this.pbEstadisticas);
+            this.Controls.Add(this.lblCalculando);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnStock);
             this.Controls.Add(this.btnEstadisticas);
@@ -114,6 +137,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmEstablecimientoGanadero_FormClosing);
             this.Load += new System.EventHandler(this.FrmEstablecimientoGanadero_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -121,5 +145,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         private System.Windows.Forms.Button btnEstadisticas;
         private System.Windows.Forms.Button btnStock;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Label lblCalculando;
+        private System.Windows.Forms.ProgressBar pbEstadisticas;
     }
 }

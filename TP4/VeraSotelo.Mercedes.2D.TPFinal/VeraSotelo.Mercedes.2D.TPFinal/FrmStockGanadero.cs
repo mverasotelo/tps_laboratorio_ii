@@ -12,6 +12,8 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         public FrmStockGanadero()
         {
             InitializeComponent();
+            Establecimiento.CambioStock += ActualizarDataGridView;
+            Establecimiento.CambioStock += InformarCambio;
         }
 
         /// <summary>
@@ -40,7 +42,6 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
                 try
                 {
                     Establecimiento.AgregarAnimal(form.Bovino);
-                    ActualizarDataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -58,20 +59,20 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         /// <param name="e"></param>
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            if (Establecimiento.StockGanadero.Count > 0 && dataStock.SelectedRows.Count > 0)
+            Bovino bovinoSeleccionado = GetBovinoSeleccionado();
+
+            if (Establecimiento.StockGanadero.Count > 0 && bovinoSeleccionado is not null)
             {
-                Bovino bovinoSeleccionado = GetBovinoSeleccionado();
                 FrmABMAnimal form = new FrmABMAnimal(bovinoSeleccionado);
                 form.ShowDialog();
 
                 if (form.DialogResult == DialogResult.OK)
                 {
-                    foreach (DataGridViewRow row in dataStock.SelectedRows)
+                    foreach (DataGridViewRow row in dgvStock.SelectedRows)
                     {
                         try
                         {
                             Establecimiento.ModificarAnimal(form.Bovino);
-                            ActualizarDataGridView();
                         }
                         catch (Exception ex)
                         {
@@ -94,18 +95,20 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         /// <param name="e"></param>
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            DialogResult dialog =  MessageBox.Show($"Seguro desea eliminar el bovino {GetBovinoSeleccionado().Identificacion}?", "Confirmación", MessageBoxButtons.YesNo);
-            if(dialog == DialogResult.Yes)
+            if (GetBovinoSeleccionado() is not null)
             {
-                if (Establecimiento.StockGanadero.Count > 0 && dataStock.SelectedRows.Count > 0)
+                DialogResult dialog = MessageBox.Show($"Seguro desea eliminar el bovino {GetBovinoSeleccionado().Identificacion}?", "Confirmación", MessageBoxButtons.YesNo);
+                if (dialog == DialogResult.Yes)
                 {
-                    Establecimiento.EliminarAnimal(GetBovinoSeleccionado());
-                    ActualizarDataGridView();
+                    if (Establecimiento.StockGanadero.Count > 0 && dgvStock.SelectedRows.Count > 0)
+                    {
+                        Establecimiento.EliminarAnimal(GetBovinoSeleccionado());
+                    }
                 }
-                else
-                {
-                    MessageBox.Show("Se debe seleccionar una fila para eliminar");
-                }
+            }
+            else
+            {
+                MessageBox.Show("Se debe seleccionar una fila para eliminar");
             }
         }
 
@@ -174,6 +177,14 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         }
 
         /// <summary>
+        /// Informa al usuario que la operación ha sido exitosa
+        /// </summary>
+        private void InformarCambio()
+        {
+            MessageBox.Show($"Operación exitosa", "Confirmación", MessageBoxButtons.OK);
+        }
+
+        /// <summary>
         /// Chequea el animal seleccionado en el datagridview.
         /// </summary>
         /// <returns>Animal seleccionado</returns>
@@ -181,7 +192,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         {
             Bovino animal = null;
 
-            foreach (DataGridViewRow row in dataStock.SelectedRows)
+            foreach (DataGridViewRow row in dgvStock.SelectedRows)
             {
                 int index = row.Index;
                 animal = Establecimiento.StockGanadero[index];

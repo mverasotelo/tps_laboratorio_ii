@@ -41,4 +41,3 @@ C:\Users\mer-v\source\TPs_Programacion2\TP4\VeraSotelo.Mercedes.2D.TPFinal\Test\
 C:\Users\mer-v\source\TPs_Programacion2\TP4\VeraSotelo.Mercedes.2D.TPFinal\Test\obj\Debug\net5.0\ref\Test.dll
 C:\Users\mer-v\source\TPs_Programacion2\TP4\VeraSotelo.Mercedes.2D.TPFinal\Test\obj\Debug\net5.0\Test.pdb
 C:\Users\mer-v\source\TPs_Programacion2\TP4\VeraSotelo.Mercedes.2D.TPFinal\Test\obj\Debug\net5.0\Test.genruntimeconfig.cache
-C:\Users\mer-v\source\TPs_Programacion2\TP4\VeraSotelo.Mercedes.2D.TPFinal\Test\obj\Debug\net5.0\Test.csproj.CopyComplete

@@ -62,6 +62,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.dgvStock.Location = new System.Drawing.Point(12, 54);
             this.dgvStock.MultiSelect = false;
             this.dgvStock.Name = "dgvStock";
+            this.dgvStock.ReadOnly = true;
             this.dgvStock.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkSeaGreen;

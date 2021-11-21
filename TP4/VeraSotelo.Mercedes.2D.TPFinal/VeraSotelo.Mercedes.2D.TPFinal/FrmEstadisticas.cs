@@ -3,7 +3,6 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 
-
 namespace VeraSotelo.Mercedes._2D.TPFinal
 {
     public partial class FrmEstadisticas : Form
