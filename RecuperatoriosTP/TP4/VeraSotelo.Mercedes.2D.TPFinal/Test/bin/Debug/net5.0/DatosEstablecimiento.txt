@@ -1,0 +1,92 @@
+STOCK GANADERO (15 cabezas)
+
+Bovino N° 1000
+Fecha de ingreso: 14/11/2021
+Sexo: Macho
+Raza: Angus
+Uso: Tambo
+
+Bovino N° 1001
+Fecha de ingreso: 14/11/2021
+Sexo: Hembra
+Raza: Holstein
+Uso: Engorde
+
+Bovino N° 1003
+Fecha de ingreso: 25/10/2021
+Sexo: Hembra
+Raza: Holstein
+Uso: Engorde
+
+Bovino N° 1004
+Fecha de ingreso: 30/10/2021
+Sexo: Hembra
+Raza: Hereford
+Uso: Tambo
+
+Bovino N° 1006
+Fecha de ingreso: 14/11/2021
+Sexo: Macho
+Raza: Holstein
+Uso: Engorde
+
+Bovino N° 1007
+Fecha de ingreso: 14/11/2021
+Sexo: Hembra
+Raza: Angus
+Uso: Engorde
+
+Bovino N° 1008
+Fecha de ingreso: 14/11/2021
+Sexo: Hembra
+Raza: Angus
+Uso: Engorde
+
+Bovino N° 1009
+Fecha de ingreso: 14/11/2021
+Sexo: Macho
+Raza: Hereford
+Uso: Engorde
+
+Bovino N° 1010
+Fecha de ingreso: 14/11/2021
+Sexo: Hembra
+Raza: Hereford
+Uso: Tambo
+
+Bovino N° 1011
+Fecha de ingreso: 14/11/2021
+Sexo: Hembra
+Raza: Hereford
+Uso: Tambo
+
+Bovino N° 1012
+Fecha de ingreso: 14/11/2021
+Sexo: Hembra
+Raza: Hereford
+Uso: Tambo
+
+Bovino N° 2004
+Fecha de ingreso: 17/11/2021
+Sexo: Hembra
+Raza: Angus
+Uso: Tambo
+
+Bovino N° 2005
+Fecha de ingreso: 17/11/2021
+Sexo: Hembra
+Raza: Angus
+Uso: Tambo
+
+Bovino N° 2011
+Fecha de ingreso: 18/11/2021
+Sexo: Hembra
+Raza: Angus
+Uso: Tambo
+
+Bovino N° 2012
+Fecha de ingreso: 18/11/2021
+Sexo: Macho
+Raza: Angus
+Uso: Engorde
+

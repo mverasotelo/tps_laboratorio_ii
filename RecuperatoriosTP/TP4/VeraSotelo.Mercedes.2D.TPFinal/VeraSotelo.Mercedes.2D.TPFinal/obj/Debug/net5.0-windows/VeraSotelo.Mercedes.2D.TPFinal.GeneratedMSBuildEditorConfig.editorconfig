@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = VeraSotelo.Mercedes._2D.TPFinal
+build_property.ProjectDir = C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\
