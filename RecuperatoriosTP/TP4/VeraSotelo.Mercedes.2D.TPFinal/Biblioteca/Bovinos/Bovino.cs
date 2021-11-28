@@ -248,7 +248,6 @@ namespace Biblioteca
             sb.AppendLine($"Uso: {uso}");
             return sb.ToString();
         }
-
         #endregion
     }
 }

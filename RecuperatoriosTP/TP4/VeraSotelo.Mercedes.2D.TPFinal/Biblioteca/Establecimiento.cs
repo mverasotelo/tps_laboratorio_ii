@@ -145,7 +145,7 @@ namespace Biblioteca
         }
 
         /// <summary>
-        /// Actualiza el stock ganadero desde la base de datos.
+        /// Actualiza el stock ganadero desde la base de datos y lanza el evento CambioStock.
         /// </summary>
         public static void ActualizarStockGanadero()
         {
