@@ -124,15 +124,18 @@ namespace Entidades
         /// </summary>
         /// <param name="taller">Objeto donde se quitará el elemento</param>
         /// <param name="vehiculo">Objeto a quitar</param>
-        /// <returns></returns>
+        /// <returns>taller</returns>
         public static Taller operator -(Taller taller, Vehiculo vehiculo)
         {
-            foreach (Vehiculo v in taller.vehiculos)
+            if(taller.vehiculos.Count < 0)
             {
-                if (v == vehiculo)
+                foreach (Vehiculo v in taller.vehiculos)
                 {
-                    taller.vehiculos.Remove(v);
-                    break;
+                    if (v == vehiculo)
+                    {
+                        taller.vehiculos.Remove(v);
+                        break;
+                    }
                 }
             }
             return taller;
