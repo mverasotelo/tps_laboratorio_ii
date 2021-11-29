@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace VeraSotelo.Mercedes._2D.TPFinal
 {
-    public partial class FrmEstadisticasHistoricas : Form
+    public partial class FrmHistoricas : Form
     {
-        public FrmEstadisticasHistoricas()
+        public FrmHistoricas()
         {
             InitializeComponent();
         }

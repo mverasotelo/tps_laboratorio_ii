@@ -5,15 +5,15 @@
     "Uso": 0,
     "Sexo": 0,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 28.56
+    "ProduccionDiariaPromedio": 48.68
   },
   {
     "Identificacion": 1001,
-    "FechaIngreso": "2021-11-14T00:00:00",
-    "Uso": 1,
-    "Sexo": 1,
-    "Raza": 2,
-    "ProduccionDiariaPromedio": 1.91
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 28.19
   },
   {
     "Identificacion": 1003,
@@ -21,7 +21,7 @@
     "Uso": 1,
     "Sexo": 1,
     "Raza": 2,
-    "ProduccionDiariaPromedio": 1.54
+    "ProduccionDiariaPromedio": 1.25
   },
   {
     "Identificacion": 1004,
@@ -29,7 +29,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 1,
-    "ProduccionDiariaPromedio": 37.9
+    "ProduccionDiariaPromedio": 40.27
   },
   {
     "Identificacion": 1006,
@@ -37,7 +37,7 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 2,
-    "ProduccionDiariaPromedio": 1.73
+    "ProduccionDiariaPromedio": 1
   },
   {
     "Identificacion": 1007,
@@ -45,7 +45,7 @@
     "Uso": 1,
     "Sexo": 1,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 1.64
+    "ProduccionDiariaPromedio": 1.89
   },
   {
     "Identificacion": 1008,
@@ -53,7 +53,7 @@
     "Uso": 1,
     "Sexo": 1,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 1
+    "ProduccionDiariaPromedio": 1.55
   },
   {
     "Identificacion": 1009,
@@ -61,23 +61,7 @@
     "Uso": 1,
     "Sexo": 0,
     "Raza": 1,
-    "ProduccionDiariaPromedio": 1.06
-  },
-  {
-    "Identificacion": 1010,
-    "FechaIngreso": "2021-11-14T00:00:00",
-    "Uso": 0,
-    "Sexo": 1,
-    "Raza": 1,
-    "ProduccionDiariaPromedio": 42.61
-  },
-  {
-    "Identificacion": 1011,
-    "FechaIngreso": "2021-11-14T00:00:00",
-    "Uso": 0,
-    "Sexo": 1,
-    "Raza": 1,
-    "ProduccionDiariaPromedio": 39.8
+    "ProduccionDiariaPromedio": 1.45
   },
   {
     "Identificacion": 1012,
@@ -85,15 +69,111 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 1,
-    "ProduccionDiariaPromedio": 36.87
+    "ProduccionDiariaPromedio": 31.34
   },
   {
-    "Identificacion": 2004,
+    "Identificacion": 1013,
     "FechaIngreso": "2021-11-17T00:00:00",
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 33.08
+    "ProduccionDiariaPromedio": 26.57
+  },
+  {
+    "Identificacion": 1014,
+    "FechaIngreso": "2021-11-17T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 49.6
+  },
+  {
+    "Identificacion": 1015,
+    "FechaIngreso": "2021-11-18T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 38.58
+  },
+  {
+    "Identificacion": 1017,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 28.31
+  },
+  {
+    "Identificacion": 1018,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.74
+  },
+  {
+    "Identificacion": 1019,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 2,
+    "ProduccionDiariaPromedio": 47.35
+  },
+  {
+    "Identificacion": 1020,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 25.99
+  },
+  {
+    "Identificacion": 1022,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 1.69
+  },
+  {
+    "Identificacion": 1023,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 1.39
+  },
+  {
+    "Identificacion": 1024,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 35.78
+  },
+  {
+    "Identificacion": 1025,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 2,
+    "ProduccionDiariaPromedio": 1.82
+  },
+  {
+    "Identificacion": 1026,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 26.22
+  },
+  {
+    "Identificacion": 2004,
+    "FechaIngreso": "2021-11-22T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 2,
+    "ProduccionDiariaPromedio": 30.01
   },
   {
     "Identificacion": 2005,
@@ -101,7 +181,7 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 30.72
+    "ProduccionDiariaPromedio": 45.23
   },
   {
     "Identificacion": 2011,
@@ -109,14 +189,118 @@
     "Uso": 0,
     "Sexo": 1,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 26.33
+    "ProduccionDiariaPromedio": 20.93
   },
   {
-    "Identificacion": 2012,
-    "FechaIngreso": "2021-11-18T00:00:00",
+    "Identificacion": 2015,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 49.72
+  },
+  {
+    "Identificacion": 2017,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 2,
+    "ProduccionDiariaPromedio": 29.6
+  },
+  {
+    "Identificacion": 2020,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 1.14
+  },
+  {
+    "Identificacion": 2021,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 1,
+    "ProduccionDiariaPromedio": 33.84
+  },
+  {
+    "Identificacion": 2022,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 2,
+    "ProduccionDiariaPromedio": 1.23
+  },
+  {
+    "Identificacion": 2023,
+    "FechaIngreso": "2021-11-20T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 23.86
+  },
+  {
+    "Identificacion": 2024,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 0,
+    "Sexo": 1,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 40.65
+  },
+  {
+    "Identificacion": 2026,
+    "FechaIngreso": "2021-11-27T00:00:00",
     "Uso": 1,
     "Sexo": 0,
     "Raza": 0,
-    "ProduccionDiariaPromedio": 1.91
+    "ProduccionDiariaPromedio": 1.63
+  },
+  {
+    "Identificacion": 2027,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.4
+  },
+  {
+    "Identificacion": 2028,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.21
+  },
+  {
+    "Identificacion": 2029,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.23
+  },
+  {
+    "Identificacion": 2030,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.64
+  },
+  {
+    "Identificacion": 2031,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.03
+  },
+  {
+    "Identificacion": 2033,
+    "FechaIngreso": "2021-11-27T00:00:00",
+    "Uso": 1,
+    "Sexo": 0,
+    "Raza": 0,
+    "ProduccionDiariaPromedio": 1.7
   }
 ]

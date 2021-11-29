@@ -1,7 +1,7 @@
 ﻿
 namespace VeraSotelo.Mercedes._2D.TPFinal
 {
-    partial class FrmEstadisticasHistoricas
+    partial class FrmHistoricas
     {
         /// <summary>
         /// Required designer variable.

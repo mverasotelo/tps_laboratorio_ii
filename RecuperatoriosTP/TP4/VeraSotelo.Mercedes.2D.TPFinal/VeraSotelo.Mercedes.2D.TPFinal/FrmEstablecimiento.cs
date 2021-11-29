@@ -5,11 +5,11 @@ using System.Windows.Forms;
 
 namespace VeraSotelo.Mercedes._2D.TPFinal
 {
-    public partial class FrmEstablecimientoGanadero : Form
+    public partial class FrmEstablecimiento : Form
     {
         private Random random;
 
-        public FrmEstablecimientoGanadero()
+        public FrmEstablecimiento()
         {
             InitializeComponent();
             random = new Random();

@@ -9,10 +9,10 @@
   </Bovino>
   <Bovino>
     <Identificacion>1001</Identificacion>
-    <FechaIngreso>2021-11-14T00:00:00</FechaIngreso>
-    <Uso>Engorde</Uso>
-    <Sexo>Hembra</Sexo>
-    <Raza>Holstein</Raza>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
   </Bovino>
   <Bovino>
     <Identificacion>1003</Identificacion>
@@ -57,20 +57,6 @@
     <Raza>Hereford</Raza>
   </Bovino>
   <Bovino>
-    <Identificacion>1010</Identificacion>
-    <FechaIngreso>2021-11-14T00:00:00</FechaIngreso>
-    <Uso>Tambo</Uso>
-    <Sexo>Hembra</Sexo>
-    <Raza>Hereford</Raza>
-  </Bovino>
-  <Bovino>
-    <Identificacion>1011</Identificacion>
-    <FechaIngreso>2021-11-14T00:00:00</FechaIngreso>
-    <Uso>Tambo</Uso>
-    <Sexo>Hembra</Sexo>
-    <Raza>Hereford</Raza>
-  </Bovino>
-  <Bovino>
     <Identificacion>1012</Identificacion>
     <FechaIngreso>2021-11-14T00:00:00</FechaIngreso>
     <Uso>Tambo</Uso>
@@ -78,11 +64,95 @@
     <Raza>Hereford</Raza>
   </Bovino>
   <Bovino>
-    <Identificacion>2004</Identificacion>
+    <Identificacion>1013</Identificacion>
     <FechaIngreso>2021-11-17T00:00:00</FechaIngreso>
     <Uso>Tambo</Uso>
     <Sexo>Hembra</Sexo>
     <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1014</Identificacion>
+    <FechaIngreso>2021-11-17T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1015</Identificacion>
+    <FechaIngreso>2021-11-18T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1017</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1018</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1019</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Holstein</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1020</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1022</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1023</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1024</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1025</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Holstein</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>1026</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2004</Identificacion>
+    <FechaIngreso>2021-11-22T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Holstein</Raza>
   </Bovino>
   <Bovino>
     <Identificacion>2005</Identificacion>
@@ -99,8 +169,99 @@
     <Raza>Angus</Raza>
   </Bovino>
   <Bovino>
-    <Identificacion>2012</Identificacion>
-    <FechaIngreso>2021-11-18T00:00:00</FechaIngreso>
+    <Identificacion>2015</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2017</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Holstein</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2020</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2021</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Hereford</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2022</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Holstein</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2023</Identificacion>
+    <FechaIngreso>2021-11-20T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2024</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Tambo</Uso>
+    <Sexo>Hembra</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2026</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2027</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2028</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2029</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2030</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2031</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
+    <Uso>Engorde</Uso>
+    <Sexo>Macho</Sexo>
+    <Raza>Angus</Raza>
+  </Bovino>
+  <Bovino>
+    <Identificacion>2033</Identificacion>
+    <FechaIngreso>2021-11-27T00:00:00</FechaIngreso>
     <Uso>Engorde</Uso>
     <Sexo>Macho</Sexo>
     <Raza>Angus</Raza>

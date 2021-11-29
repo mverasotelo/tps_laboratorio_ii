@@ -4,7 +4,7 @@
     <Compile Update="FrmABMAnimal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmEstablecimientoGanadero.cs">
+    <Compile Update="FrmEstablecimiento.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmEstadisticas.cs">
@@ -13,7 +13,7 @@
     <Compile Update="FrmStockGanadero.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmEstadisticasHistoricas.cs">
+    <Compile Update="FrmHistoricas.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

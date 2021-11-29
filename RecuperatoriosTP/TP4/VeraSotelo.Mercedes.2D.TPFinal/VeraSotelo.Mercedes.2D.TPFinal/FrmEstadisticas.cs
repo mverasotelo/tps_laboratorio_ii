@@ -101,7 +101,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         /// <param name="e"></param>
         private void btnHistorial_Click(object sender, EventArgs e)
         {
-            FrmEstadisticasHistoricas form = new FrmEstadisticasHistoricas();
+            FrmHistoricas form = new FrmHistoricas();
             form.ShowDialog();
         }
 

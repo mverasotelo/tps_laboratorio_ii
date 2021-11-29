@@ -17,7 +17,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmEstablecimientoGanadero());
+            Application.Run(new FrmEstablecimiento());
         }
     }
 }

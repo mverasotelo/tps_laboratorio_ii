@@ -1,7 +1,7 @@
 ﻿
 namespace VeraSotelo.Mercedes._2D.TPFinal
 {
-    partial class FrmEstablecimientoGanadero
+    partial class FrmEstablecimiento
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEstablecimientoGanadero));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEstablecimiento));
             this.btnEstadisticas = new System.Windows.Forms.Button();
             this.btnStock = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -110,7 +110,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.pbEstadisticas.Size = new System.Drawing.Size(762, 10);
             this.pbEstadisticas.TabIndex = 3;
             // 
-            // FrmEstablecimientoGanadero
+            // FrmEstablecimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,7 +129,7 @@ namespace VeraSotelo.Mercedes._2D.TPFinal
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(800, 500);
-            this.Name = "FrmEstablecimientoGanadero";
+            this.Name = "FrmEstablecimiento";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

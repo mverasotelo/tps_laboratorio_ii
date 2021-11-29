@@ -71,9 +71,7 @@ C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\bin\Debug\net5.0-windows\Biblioteca.pdb
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.csproj.AssemblyReference.cache
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmABMAnimal.resources
-C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmEstablecimientoGanadero.resources
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmEstadisticas.resources
-C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmEstadisticasHistoricas.resources
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmStockGanadero.resources
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.Properties.Resources.resources
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.csproj.GenerateResource.cache
@@ -81,8 +79,9 @@ C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.AssemblyInfoInputs.cache
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.AssemblyInfo.cs
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.csproj.CoreCompileInputs.cache
-C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.csproj.CopyComplete
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.dll
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\ref\VeraSotelo.Mercedes.2D.TPFinal.dll
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.pdb
 C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes.2D.TPFinal.genruntimeconfig.cache
+C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmEstablecimiento.resources
+C:\Users\mer-v\source\TPs_Programacion2\RecuperatoriosTP\TP4\VeraSotelo.Mercedes.2D.TPFinal\VeraSotelo.Mercedes.2D.TPFinal\obj\Debug\net5.0-windows\VeraSotelo.Mercedes._2D.TPFinal.FrmHistoricas.resources
